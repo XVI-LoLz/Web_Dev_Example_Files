@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=ZCOOL+KuaiLe&display=swap");
+
+html {
+  font-family: "Kalam", cursive;
+}
+
+#main-header {
+  font-family: "ZCOOL KuaiLe", cursive;
+  background-color: rgb(165, 190, 235);
+  padding: 20px;
+}
+
+main {
+  min-height: 100vh;
+  margin: 20px;
+}
+
+#welcome-message {
+}
+
+.card {
+  display: inline-flex;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.card.vertical {
+  max-width: fit-content;
+  flex-direction: column;
+}
+
+.card.vertical .left-side {
+  margin-bottom: 12px;
+}
+
+.card .left-side {
+  min-width: 100px;
+}
+
+.card .right-side {
+}
+
+h1 {
+  margin: 16px 0;
+}
+
+footer {
+  padding: 20px;
+}

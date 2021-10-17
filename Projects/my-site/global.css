@@ -1,0 +1,12 @@
+a {
+  color: rgb(255, 220, 20);
+  text-shadow: 1px 0px 0 black, -1px 0px 0 black, 0px 1px 0 black,
+    0px -1px 0 black;
+  text-decoration: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
