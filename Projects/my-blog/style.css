@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Rampart+One&family=Scheherazade+New&display=swap");
+
+html {
+  font-family: "Dosis", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Scheherazade New", serif;
+}
+
+#logo {
+  font-family: "Rampart One", cursive;
+}
+
+.container.as-post img {
+  display: block;
+  margin: auto;
+}
+.container.as-post h1 {
+  font-size: 4rem;
+}
+.container.as-post h2 {
+  font-size: 3rem;
+}
+.container.as-post p {
+  margin: 1rem;
+}
